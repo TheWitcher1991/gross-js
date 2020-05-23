@@ -9,8 +9,8 @@ All documentation is on this site - ...
 
 Clone the repository in a suitable folder
 
-```
-git clone https://github.com/TheWitcher1991/gross-js.git
+```bash
+$ git clone https://github.com/TheWitcher1991/gross-js.git
 ```
 
 Then download the nodejs packages
