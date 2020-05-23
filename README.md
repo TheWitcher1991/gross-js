@@ -27,6 +27,30 @@ const { Gross } = require('gross-js');
 
 Then using wepback or other collectors to get the source file
 
+### Example
+```js
+'use strict';
+
+// We wait until the page loads and execute the code inside
+g(function () {
+
+    // By clicking on an element we execute an event
+    g('#id').handler('click', () => {
+            alert(3);
+    });
+
+    // Add class to element
+    g('.class').addClass('TestAddClass');
+
+    // Add attribute to element.
+    g('.class').attr('style', 'background:blue;color:#fff;text-align:center');
+
+   // Search for an item in a container
+    g('#id').find('.class');
+
+});
+```
+
 ### Node
 
 To include Gross-js in Node, first install with npm.

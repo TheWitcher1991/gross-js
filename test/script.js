@@ -5,14 +5,14 @@
 g(function () {
 
     // By clicking on an element we execute an event
-    g('#button').handler('click', () => {
+    g('#id').handler('click', () => {
             alert(3);
     });
 
     // Add class to element
-    g('.gross').addClass('TestAddClass');
+    g('.class').addClass('TestAddClass');
 
-    // Add attribute to element. Looks a little silly)
-    g('.gross').attr('style', 'background:blue;color:#fff;text-align:center');
+    // Add attribute to element.
+    g('.class').attr('style', 'background:blue;color:#fff;text-align:center');
 
 });
