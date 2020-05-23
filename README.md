@@ -7,6 +7,24 @@
 All documentation is on this site - ...
 ## Including
 
+Clone the repository in a suitable folder
+
+```
+git clone https://github.com/TheWitcher1991/gross-js.git
+```
+
+Then download the nodejs packages
+And assemble the project
+
+```bash
+$ npm install
+$ npm run build
+```
+
+The desired file in the build folder
+
+> {PATH}/build/gross.js
+
 ### Webpack/ES6/ES5
 
 You can use ES6 ES5 connection modules
