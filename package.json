@@ -10,7 +10,7 @@
     "server": "php -S 127.0.0.1:3000"
   },
   "author": "<alikzoy@gmail.com>",
-  "license": "MIT",
+  "license": "GNU GPL",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheWitcher1991/gross-js.git"
