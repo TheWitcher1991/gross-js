@@ -1,6 +1,5 @@
 # GROSS-JS
 
->## I warn you! Plugin in development. If you download it and use it, there may be errors in some functions or they will not work
 
 > This is a plugin that speeds up work with some code. He is very similar to jQuery
 
